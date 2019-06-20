@@ -1,8 +1,9 @@
 ---
-title: "assignment2"
-author: "hidai"
-date: "6/19/2019"
-output: html_document
+output:
+  html_document:
+    toc: true
+    theme: united
+date: `r format(Sys.time(), "%d %B, %Y")`
 ---
 
 ```{r setup, include=TRUE}
